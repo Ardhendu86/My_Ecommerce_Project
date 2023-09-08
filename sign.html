@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sign.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <form action="">
+        <h1>Signup</h1>
+        <div id="un">
+            <input type="text" placeholder="Enter User Name">
+            <div><i class="fa-solid fa-user"></i></div>
+        </div>  
+        
+        <div id="email">
+            <input type="text" placeholder="Enter Your Email">
+            <div><i class="fa-solid fa-envelope"></i></div>
+        </div>
+        
+        <div id="no">
+            <input type="text" placeholder="Enter Your Phone Number">
+            <div><i class="fa-solid fa-phone"></i></div>
+        </div>
+        
+        <div id="inputbox">
+            <input type="password" placeholder="Enter Your Passward" id="pass" >
+                <div ><i   class="fa-solid fa-eye-slash" id="eye"></i></div>
+        </div>
+        <label for="gender">Select your gender:</label>
+            <select name="gender" id="gender">
+                <option value="">--Please select--</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="other">other</option>
+            </select>
+       
+            <div id="sbtn"><a href="login.html">Signup</a></div>
+       
+            <div id="login">
+                <p>Already have an account?</p>
+                <a href="login.html">Login</a>
+            </div>
+       
+       <fieldset>
+        <legend>Or</legend>
+       </fieldset>
+
+            <div class="ctn1">
+                <div><i class="fa-brands fa-facebook"></i></div>
+                <a href="https://www.facebook.com">Login with Facebook</a>
+            </div>
+            
+            <div class="ctn2">
+                <div><i class="fa-brands fa-google"></i></div>
+                <a href="https://google.com">Login with Google</a>
+            </div>
+      
+    </form>
+    
+    <script src="login.js"></script>
+</body>
+</html>

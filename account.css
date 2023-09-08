@@ -1,0 +1,377 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* <!-- Here we will write a code header --------------------------------> */
+.nbar{
+    height: 80px;
+    width: auto;
+    border: 2px solid rgb(8, 7, 10);
+    background-color: rgb(7, 7, 15);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    
+}
+@media screen {
+    
+}
+
+.shopname{
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    /* border: 2px solid rgb(243, 240, 240); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.shopname i{
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    font-size: 28px;
+    padding-top: 3px; 
+    padding-left: 2px; 
+}
+.shopname a{
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+    padding-right: 32px;
+}
+.shopname:hover{
+    border:2px solid #fff;
+}
+
+
+.address{
+    height: 60px;
+    width: 200px;
+    /* border: 2px solid  #fff; */
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;   
+}
+
+.address i{
+    font-size: 25px;
+    color: #fff;
+    padding-top:0px;
+}
+.address a{
+    color: #fff;
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+}
+.address:hover{
+    border: 2px solid  #fff;
+}
+
+.search-bar{
+    height: 40px;
+    width: 400px;
+    /* border: 2px solid #fff; */
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.search-bar input{
+    font-size: 25px;
+    border: 0;
+    outline: 0;
+    margin-left: 10px;
+}
+.search-bar  i{
+    font-size: 25px;
+    margin-left: -10px;
+  
+}
+.search-bar button {
+    border: 0px;
+    height: 36px;
+    width: 45px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin-left: 30px;
+    padding-top: 5px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+
+.cart{
+    height: 60px;
+    width: 160px;
+    /* border: 2px solid  #fff; */
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.cart i{
+    color: #fff;
+    font-size: 25px;
+}
+.cart p{
+    color: #fff;
+    font-size: 24px;
+    font-style: italic;
+    padding-left: 8px;
+}
+.cart:hover{
+    border: 2px solid  #fff;
+}
+
+.account{
+    height: 60px;
+    width: 160px;
+    /* border: 2px solid #fff; */
+    border-radius: 20px;
+    /* justify-content: center;
+    align-items: center;
+    display: flex; */
+}
+.account i{
+    color: #fff;
+    font-size: 25px;
+    padding-left: 60px;
+}
+.account a{
+    color: #fff;
+    font-size: 22px;
+    font-style: italic;
+    padding-left: 22px;
+}
+.account:hover{
+    border: 2px solid  #fff;
+}
+.login{
+    height: 60px;
+    width: 160px;
+    /* border: 2px solid#fff; */
+    border-radius: 20px;
+    padding-top: 15px;
+}
+.login a{
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.login:hover{
+    border: 2px solid  #fff;
+}
+
+.menubar{
+    height: 60px;
+    width: 160px;
+    /* border: 2px solid #d80b0b; */
+    padding-left: 50px;
+    padding-top: 15px;
+    
+}
+
+.menubar i{
+    font-size: 30px;
+    color: #fff;
+}
+
+
+.main{
+    height: 980px;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: 20px 80px;
+    position: relative;
+}
+.frist{
+    height: 80px;
+    width: 300px;
+    border: 1px solid rgb(216, 213, 213);
+    box-shadow: 0px 0px 10px;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.frist img{
+    height: 60px;
+    width: 60px;
+    padding-top: 0px;
+  
+}
+.frist .name{
+    font-size: 25px;
+    padding-left: 5px;
+    /* text-align: center; */
+}
+.second{
+    height: 580px;
+    width: 300px;
+    border: 1px solid rgb(222, 222, 222);
+    box-shadow: 0px 0px 10px;
+    position: absolute;
+    top: 120px;
+    margin-left: 8px;
+}
+.myorder{
+    height: 80px;
+    width: 298px;
+    border: 1px solid rgb(227, 226, 226);
+    /* box-shadow: 0px 0px 10px; */
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.myorder i{
+    /* height: 90px;
+    width: 90px; */
+    color: blue;
+    font-size: 28px;
+    padding-top: 0px;
+}
+.myorder p{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-right: 73px;
+}
+/* -------------------ACCOUNT SETTINGS---------------- */
+
+.acc{
+    height: 200px;
+    width: 298px;
+    border: 1px solid rgb(232, 231, 231);
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.acc i{
+    /* height: 90px;
+    width: 90px; */
+    color: blue;
+    font-size: 28px;
+    padding-top: 28px;
+}
+.acc p{
+    font-size: 20px;
+    padding-top: 34px;
+    padding-right: 0px;
+}
+
+
+.third{
+    height: 957px;
+    width: 849px;
+    border: 1px solid rgb(231, 230, 230);
+    position: absolute;
+    left: 380px;
+    margin-top: 8px;
+    box-shadow: 0px 0px 10px;
+}
+.third h1{
+    margin-top: 8px;
+    padding-left: 10px;
+}
+.third .name{
+    position: absolute;
+    height: 60px;
+    width: 600px;
+    margin-top: 8px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.third .name input{
+    height: 55px;
+    width: 250px;
+    text-align: center;
+    font-size: 25px;
+}
+.third h2{
+    margin-top: 85px;
+    margin-left:10px ;
+}
+
+.third .gender{
+    margin-top: 12px;
+    margin-left:10px ;
+}
+.third .email{
+    position: absolute;
+    top: 200px;
+   margin-left: 12px;
+}
+.email input{
+    
+    height: 55px;
+    width: 250px;
+    text-align: center;
+    font-size: 25px;
+    top: 250px;
+    margin-top: 8px;
+}
+.third h3{
+    font-size: 25px;
+    
+}
+.third .ph{
+    position: absolute;
+    top: 310px;
+    margin-left: 12px;
+}
+.ph input{
+    
+    height: 55px;
+    width: 250px;
+    text-align: center;
+    font-size: 25px;
+    top: 250px;
+    margin-top: 8px;
+}
+.third h4{
+    font-size: 25px;
+    
+}
+.third .notice{
+    position: absolute;
+    margin-left: 25px;
+    top: 430px;
+}
+.third .img{
+    position: absolute;
+    top: 800px;
+    
+}
+
+
+@media screen  {
+
+    
+}
